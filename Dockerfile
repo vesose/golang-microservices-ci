@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:1.16.5-alpine3.13
 RUN \
   apk add --no-cache make git gcc g++ protobuf && \
   export GO111MODULE=on && \
